@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEMS Cadbury - Portrait</title>
+    <!-- BELOW CODE CSS -->
+    <link type="text/css" rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link type="text/css" rel="stylesheet" href="css/animate.min.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/customScrollbar.min.css">
+    <link type="text/css" rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg_portrait">
+
+    <!-- START SIDEBAR -->
+    <div class="overlay" id="overlay"></div>
+    <div class="sidebar" id="sidebar">
+        <a href="javascript:void(0)" class="icon_close" id="btn_close">
+            <img src="img/icon_close.png" alt="" class="img-fluid" />
+        </a>
+        <ul class="list-unstyled list_topnav">
+            <li>
+                <a href="javascript:void(0)" class="link_nav">
+                     Privacy Policy
+                 </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="link_nav">
+                     Terms &amp; Conditions
+                 </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="link_nav">
+                     Contact US
+                 </a>
+            </li>
+        </ul>
+    </div>
+    <!-- END SIDEBAR -->
+
+    <!-- START FOR MOBILE >> PORTRAIT -->
+    <div class="mob_portait" id="mob_portait">
+        <!-- START HEADER -->
+        <header>
+            <div class="container">
+                <div class="inner_header">
+                    <a class="logo_block animate__animated animate__swing">
+                        <img src="img/logo.png" alt="" class="img-fluid img_logo">
+                    </a>
+                    <a href="javascript:void(0)" class="icon_menu" id="btn_menu">
+                        <img src="img/icon_menu.png" alt="" class="img-fluid img_menu">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- START FOR MAIN CONTENT -->
+        <div class="main_content">
+            <div class="inner_content">
+                <!-- START - STEP 1 -->
+                <div class="step_content" id="step1" style="display: flex;">
+                    <h3 class="headtitle">Enter the below details</h3>
+                    <div class="fill_form animate__animated animate__fadeIn">
+                        <div class="form-group field_group">
+                            <input type="text" class="field_input" placeholder="Name">
+                        </div>
+                        <div class="form-group field_group">
+                            <input type="email" class="field_input" placeholder="E-mail ID">
+                        </div>
+                        <div class="form-group field_group">
+                            <input type="text" class="field_input" placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="form-group field_group">
+                        <ul class="list-unstyled list_checkbox">
+                            <li>
+                                <label class="field_chk">
+                                    <input type="checkbox" class="field_input_chk">
+                                    <span class="dot_chk"></span>
+                                    <span class="txt_chk">I accept <a href="javascript:void(0)" class="link_white_color">T&C</a> and <a href="javascript:void(0)" class="link_white_color">privacy policy</a> on mondelez. (cadbury)</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="field_chk">
+                                    <input type="checkbox" class="field_input_chk">
+                                    <span class="dot_chk"></span>
+                                    <span class="txt_chk">I consent to receiving promotional communication
+                                        from mondelez (Cadbury) about it's products & offers.</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn_block d-flex justify-content-center align-items-center">
+                        <button class="btn_primary" data-bs-toggle="modal" data-bs-target="#otpModal" id="btnGetOtp">GET OTP</button>
+                    </div>
+                </div>
+                <!-- END - STEP 1 -->
+
+                <!-- START - STEP 2 -->
+                <div class="step_content" id="step2" style="display: none;">
+                    <div class="welcome_content">
+                        <h2 class="bigheadtitle animate__animated animate__bounceInUp animate__delay-1s">Welcome Back, <br/>Vighnesh!</h2>
+                        <div class="btn_block mb-3 d-flex justify-content-center align-items-center animate__animated animate__bounceInUp animate__delay-2s">
+                            <button class="btn_primary" id="btnSubmit_W">SUBMIT</button>
+                        </div>
+                        <a href="javascript:void(0)" class="link animate__animated animate__bounceInUp animate__delay-3s">New Signup</a>
+                    </div>
+                </div>
+                <!-- END - STEP 2 -->
+            </div>
+        </div>
+        <!-- END FOR MAIN CONTENT -->
+        <div class="img_block">
+            <img class="img-fluid img_music_left" src="img/music_blue.png" />
+            <img class="img-fluid img_music_right" src="img/music_yellow1.png" />
+        </div>
+
+        <!-- START > POPUP FOR IMAGE AND CAPTION -->
+        <div class="modal_portait modalImgCap modal fade animate__animated animate__backInDown" id="modalImageCaption">
+            <div class="modal-dialog">
+                <div class="modal-content modal_content">
+                    <div class="modal-body modal_body">
+                        <a href="javascript:void(0)" class="icon_close" data-bs-dismiss="modal" id="btnClsImgCap">
+                            <img src="img/icon_close.png" alt="" class="img-fluid">
+                        </a>
+                        <div class="thumb_block animate__animated animate__fadeIn animate__delay-1s">
+                            <img src="https://w.forfun.com/fetch/02/02d248d9eeaf7c12258f6ea6e1d445c1.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="caption_block">
+                            <h2 class="headtitle animate__animated animate__bounceIn animate__delay-1s">HOLD ON KIDS!</h2>
+                            <p class="desc animate__animated animate__bounceInUp animate__delay-1s">A world of musical masti awaits you - just drop your email ID, and we'll send you a reminder for showtime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END > POPUP FOR IMAGE AND CAPTION -->
+
+        <!-- START > POPUP FOR ENTER OTP -->
+        <div class="modal_portait modal_otp modal fade animate__animated animate__backInDown" id="otpModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="imgTop_block">
+                            <div class="imgTopLeft_comp">
+                                <img src="img/music_red2.png" class="img-fluid img_1" />
+                            </div>
+                            <div class="imgTopRight_comp">
+                                <img src="img/music_blue.png" class="img-fluid img_1" />
+                                <img src="img/music_orange.png" class="img-fluid img_2" />
+                            </div>
+                        </div>
+                        <h3 class="subtitle">ENTER OTP</h3>
+                        <div class="otp_block mb-3">
+                            <input class="otp_input" value="" id="otp-first" type="number" min="0" max="9" step="1" />
+                            <input class="otp_input" value="" id="otp-second" type="number" min="0" max="9" step="1" />
+                            <input class="otp_input" value="" id="otp-third" type="number" min="0" max="9" step="1" />
+                            <input class="otp_input" value="" id="otp-fourth" type="number" min="0" max="9" step="1" />
+                        </div>
+                        <div class="btn_block d-flex align-items-center justify-content-center">
+                            <button type="button" class="btn btn-secondary btn_submit" id="btnOtpSubmit" data-bs-target="#rotateScreenModal" data-bs-toggle="modal">SUBMIT</button>
+                        </div>
+                        <br/>
+                        <div class="link_block text-center d-flex flex-column">
+                            <a href="javascript:void(0)" class="link">Reset OTP</a>
+                            <a href="javascript:void(0)" class="link">Entered a Wrong Number?</a>
+                        </div>
+                        <div class="imgBottom_block">
+                            <div class="imgBottomLeft_comp">
+                                <img src="img/music_green.png" class="img-fluid imgLB_1" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END > POPUP FOR ENTER OTP -->
+
+    </div>
+    <!-- END FOR MOBILE >> PORTRAIT -->
+
+    <!-- BELOW CODE JS -->
+    <script type="text/javascript " src="js/jquery.min.js"></script>
+    <script type="text/javascript " src="js/popper.min.js"></script>
+    <script type="text/javascript " src="js/bootstrap.min.js"></script>
+    <script type="text/javascript " src="js/mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script type="text/javascript " src="js/custom.js"></script>
+</body>
+</html>
